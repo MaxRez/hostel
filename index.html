@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <script src = "js/jquery-3.0.0.min.js" type = text/javascript></script>
+    <script src = "js/jquery-ui.js" type = text/javascript></script>
+    <script src = "js/script.js" type = text/javascript></script>
+    <script src = js/bootstrap.min.js type = text/javascript></script>
+    <link href = "css/style.css" rel = "stylesheet" type = "text/css">
+    <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
+    <link href = "css/jquery-ui.css" rel = "stylesheet" type = "text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>Hostel</title>
+</head>
+<body>
+    <div id = "main_hostel">
+        <header>
+            <div id = "header_top">
+                <div id = "header_top_lm">
+                    <div id = "header_top_logo">
+                        <img id = "header_logo" src = "image/LOGO.png">
+                    </div>
+                    <p id="language"><a href = "#">Eng</a></p>
+                    <div id = "header_top_menu">
+                        <ul class = "nav">
+                            <li><a href = "#">Номера и цены</a></li>
+                            <li><a href = "#">Дополнительные услуги</a></li>
+                            <li><a href = "#">Что мы предлагаем</a></li>
+                            <li><a href = "#">Отзывы</a></li>
+                            <li><a href = "#">Рядом с нами</a></li>
+                            <li><a href = "#">Как добраться</a></li>
+                            <li><a href = "#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id = "header">
+                <div id = "header_image">
+                  <img src = "image/picture_palaraks.jpg" >
+                </div>
+            <div id = "header_hostel_fon">
+            </div>
+            <div id="header_hostel_text">
+                <p><span class = upper>Хостел</span> в центре Киева</p>
+            </div>
+            <div id = "call_telephon">
+                <p> +38 (044) <span>123-45-67</span></p>
+                <p> +38 (067) <span>123-45-67</span></p>
+            </div>
+            <div id = "buttom_order">
+                <a  href = "#">Заказать звонок</a>
+            </div>
+            <div id = tetraider_1>
+                <img src ="image/tetraider_1.png">
+            </div>
+            <div id = "visa">
+                <img src ="image/visa.png">
+            </div>
+            <div id = text_tetraider_1>
+                   <p><span class = bolder_text>Оплата наличными или картой</span> цена 150 грн/сутки</p>
+              </div>
+              <div id = "map">
+                  <img src ="image/map.png">
+              </div>
+              <div id = tetraider_2>
+                   <img src ="image/tetraider_2.png">
+              </div>
+              <div id = text_tetraider_2>
+                   <p><span class = bolder_text>Удобное расположение</span> в центре Киева</p>
+              </div>
+              <div id = tetraider_3>
+                   <img src ="image/tetraider_3.png">
+              </div>
+              <div id = text_tetraider_3>
+                   <p><span class = bolder_text>8-6-2-1-местные комнаты</span> комфортные условия</p>
+              </div>
+              <div id = "lamp">
+                  <img src ="image/lamp.png">
+              </div>
+              <div id = bron>
+                   <a href = "#">Забронировать</a>
+              </div>
+
+              <div id = "head_bottom_menu">
+                  <div id = "bottom_menu">
+
+
+                   <ul class = "nav">
+                        <li><a>Главная</a></li>
+                        <li><a>Номера и цены</a></li>
+                        <li><a>Дополнительные услуги</a></li>
+                        <li><a>Что мы предлагаем</a></li>
+                        <li><a>Отзывы</a></li>
+                        <li><a>Рядом с нами</a></li>
+                        <li><a>Как добраться</a></li>
+                        <li><a>Контакты</a></li>
+                   </ul>
+                    <div id = "tell_menu">
+                    <a>+38 (044) <span>123-45-67</span></a>
+                    <a>+38 (044) <span>123-45-67</span></a>
+                        </div>
+                    <div id = "menu_order_call" >
+                        <a class = upper>Заказать звонок</a>
+                    </div>
+
+              </div>
+                </div>
+
+          </div>
+        </header>
+
+
+        <main>
+            <div id = "order_number">
+            <div id = "main_header">
+                <p class = "upper">Номера и цены</p>
+                <label>Стоимость:
+                    <select id = "select_date">
+                        <option>с 30.01.12 до 10.01.16</option>
+                        <option>с 30.01.12 до 10.01.16</option>
+                        <option>с 30.01.12 до 10.01.16</option>
+                        <option>с 30.01.12 до 10.01.16</option>
+                    </select>
+                </label>
+            </div>
+
+                <div id = "tabs">
+                    <ul>
+                        <li><a href="#tabs-1"><img class = "female_male" src = "image/female_male.png" ><p class = "order_tabs_menu"><span class = "upper">Общий</span><br> 8 человек</p></a></li>
+                        <li><a href="#tabs-2"><img class = "female_male" src = "image/female_male.png" ><p class = "order_tabs_menu"><span class = "upper">Общий</span><br> 6 человек</p></a></li>
+                        <li><a href="#tabs-3"><img class = "one_sex" alt = "female" src = "image/male.png" ><p class = "order_tabs_menu"><span class = "upper">Женский</span><br> 8 человек</p></a></li>
+                        <li><a href="#tabs-4"><img class = "one_sex" alt = "male" src = "image/female.png" ><p class = "order_tabs_menu"><span class = "upper">Муржской</span><br> 8 человек</p></a></li>
+                        <li><a href="#tabs-5"><img class = "female_male" src = "image/female_male.png" ><p class = "order_tabs_menu"><span class = "upper">vip - 1</span><br> 1-2 человек</p></a></li>
+                        <li><a href="#tabs-6"><img class = "female_male" src = "image/female_male.png" ><p class = "order_tabs_menu"><span class = "upper">vip - 2</span><br> 1-2 человек</p></a></li>
+                    </ul>
+                    <div id= "tabs-1">
+                        <h2 class = "description_tabs"><span class = "upper">Общий</span> номер для 8 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                           90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                           номере есть индивидуальное освещение, шкафчики с замками<br>
+                          (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                            </div>
+                        <div class = "table_order">
+                        <table>
+                            <tr>
+                                <td><img src ="image/bell.png"></td>
+                                <td><img src ="image/shower.png"></td>
+                                <td><img src ="image/wifi.png"></td>
+                                <td><img src ="image/lamp_1.png"></td>
+                                <td><img src ="image/key.png"></td>
+                                <td><img src ="image/bed.png"></td>
+                                </tr>
+                            <tr>
+                                <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                <td><p>Горячая<br> вода 24/7</p></td>
+                                <td><p>Wi-fi</p></td>
+                                <td><p>Индивидуальные светильники и розетки</p></td>
+                                <td><p>Шкафчики<br> на замках</p></td>
+                                <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                        </table>
+                        </div>
+                    </div>
+                    <div id="tabs-2">
+                        <h2 class = "description_tabs"><span class = "upper">Общий</span> номер для 6 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                            90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                            номере есть индивидуальное освещение, шкафчики с замками<br>
+                           (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                        </div>
+                        <div class = "table_order">
+                            <table>
+                                <tr>
+                                    <td><img src ="image/bell.png"></td>
+                                    <td><img src ="image/shower.png"></td>
+                                    <td><img src ="image/wifi.png"></td>
+                                    <td><img src ="image/lamp_1.png"></td>
+                                    <td><img src ="image/key.png"></td>
+                                    <td><img src ="image/bed.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                    <td><p>Горячая<br> вода 24/7</p></td>
+                                    <td><p>Wi-fi</p></td>
+                                    <td><p>Индивидуальные светильники и розетки</p></td>
+                                    <td><p>Шкафчики<br> на замках</p></td>
+                                    <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                            </div>
+                    <div id="tabs-3">
+                        <h2 class = "description_tabs"><span class = "upper">Женский</span> номер для 6 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                            90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                            номере есть индивидуальное освещение, шкафчики с замками<br>
+                           (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                        </div>
+                        <div class = "table_order">
+                            <table>
+                                <tr>
+                                    <td><img src ="image/bell.png"></td>
+                                    <td><img src ="image/shower.png"></td>
+                                    <td><img src ="image/wifi.png"></td>
+                                    <td><img src ="image/lamp_1.png"></td>
+                                    <td><img src ="image/key.png"></td>
+                                    <td><img src ="image/bed.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                    <td><p>Горячая<br> вода 24/7</p></td>
+                                    <td><p>Wi-fi</p></td>
+                                    <td><p>Индивидуальные светильники и розетки</p></td>
+                                    <td><p>Шкафчики<br> на замках</p></td>
+                                    <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="tabs-4">
+                        <h2 class = "description_tabs"><span class = "upper">Мужской</span> номер для 6 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                            90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                            номере есть индивидуальное освещение, шкафчики с замками<br>
+                            (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                        </div>
+                        <div class = "table_order">
+                            <table>
+                                <tr>
+                                    <td><img src ="image/bell.png"></td>
+                                    <td><img src ="image/shower.png"></td>
+                                    <td><img src ="image/wifi.png"></td>
+                                    <td><img src ="image/lamp_1.png"></td>
+                                    <td><img src ="image/key.png"></td>
+                                    <td><img src ="image/bed.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                    <td><p>Горячая<br> вода 24/7</p></td>
+                                    <td><p>Wi-fi</p></td>
+                                    <td><p>Индивидуальные светильники и розетки</p></td>
+                                    <td><p>Шкафчики<br> на замках</p></td>
+                                    <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="tabs-5">
+                        <h2 class = "description_tabs"><span class = "upper">vip - 1</span> номер для 1-2 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                            90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                            номере есть индивидуальное освещение, шкафчики с замками<br>
+                            (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                        </div>
+                        <div class = "table_order">
+                            <table>
+                                <tr>
+                                    <td><img src ="image/bell.png"></td>
+                                    <td><img src ="image/shower.png"></td>
+                                    <td><img src ="image/wifi.png"></td>
+                                    <td><img src ="image/lamp_1.png"></td>
+                                    <td><img src ="image/key.png"></td>
+                                    <td><img src ="image/bed.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                    <td><p>Горячая<br> вода 24/7</p></td>
+                                    <td><p>Wi-fi</p></td>
+                                    <td><p>Индивидуальные светильники и розетки</p></td>
+                                    <td><p>Шкафчики<br> на замках</p></td>
+                                    <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="tabs-6">
+                        <h2 class = "description_tabs"><span class = "upper">vip - 2</span> номер для 1-2 человек</h2>
+                        <p>Большие двухъярусные кровати, каждое спальное место размером<br>
+                            90см на 200см, ортопедические матрасы. Санузел на этаже. В<br>
+                            номере есть индивидуальное освещение, шкафчики с замками<br>
+                            (локеры).
+                        </p>
+                        <p class = "room_rant_bold">вс.- ср. 140 грн</p>
+                        <p class = "room_rant_bold">чт.- сб. 150 грн</p>
+                        <p class = "room_rant">место/сутки</p>
+                        <div class = "bron_rant">
+                            <a href = "#">Забронировать</a>
+                        </div>
+                        <div class = "gallery_rent">
+                            <div class = "big"><img src = "image/gallery/picture_1.jpg"></div>
+                            <div class= "small">
+                                <a href = "image/gallery/1.jpg"><img src = "image/gallery/picture_1.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                                <a href = "image/gallery/3.jpg"><img src = "image/gallery/picture_3.jpg"></a>
+                                <a href = "image/gallery/2.jpg"><img src = "image/gallery/picture_2.jpg"></a>
+                            </div>
+                        </div>
+                        <div class = "table_order">
+                            <table>
+                                <tr>
+                                    <td><img src ="image/bell.png"></td>
+                                    <td><img src ="image/shower.png"></td>
+                                    <td><img src ="image/wifi.png"></td>
+                                    <td><img src ="image/lamp_1.png"></td>
+                                    <td><img src ="image/key.png"></td>
+                                    <td><img src ="image/bed.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Заезд в 14-00,<br> выезд в 11-00</p></td>
+                                    <td><p>Горячая<br> вода 24/7</p></td>
+                                    <td><p>Wi-fi</p></td>
+                                    <td><p>Индивидуальные светильники и розетки</p></td>
+                                    <td><p>Шкафчики<br> на замках</p></td>
+                                    <td><p>Постельное бельё и полотенца высокого качества</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+                </div>
+            <div id = "add_service">
+                <div id = "main_add_service">
+                    <p class = "upper">Дополнительные услуги</p>
+                    <table class = "upper">
+                        <tr>
+                            <td><img src = "image/wash_maschine.png"></td>
+                            <td><img src = "image/car.png"></td>
+                            <td><img src = "image/brief_case.png"></td>
+                            <td><img src = "image/book.png"></td>
+                        </tr>
+                        <tr class = "picture_service">
+                            <td><p>стирка, глажка</p></td>
+                            <td>трансфер</td>
+                            <td>хранение багажа</td>
+                            <td>книги</td>
+                        </tr>
+                        <tr>
+                            <td><img src = "image/exur.png"></td>
+                            <td><img src = "image/bycicle.png"></td>
+                            <td><img src = "image/eat.png"></td>
+                            <td><img src = "image/game.png"></td>
+                        </tr>
+                        <tr>
+                            <td>экскурсии</td>
+                            <td>велопрокат</td>
+                            <td>заказ еды</td>
+                            <td>настольные игры</td>
+                        </tr>
+                        <tr>
+                            <td><img src = "image/ticket.png"></td>
+                            <td><img src = "image/alarm_clock.png"></td>
+                            <td><img src = "image/parking.png"></td>
+                            <td><img src = "image/sale.png"></td>
+                        </tr>
+                        <tr>
+                            <td>заказ билетов</td>
+                            <td>будильник</td>
+                            <td>парковка</td>
+                            <td>скидки</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+       <div id = "reviews">
+           <p class = "upper">Отзывы:</p>
+            <div id = "review_slaider">
+                <div id="slider" class="slider_wrap">
+                    <img alt="Image 1" class="active" src="image/gallery/picture_1.jpg" />
+                    <img alt="Image 2" class="active" src="image/gallery/picture_1.jpg"/>
+                    <img alt="Image 3" src="image/gallery/picture_2.jpg"/>
+                </div>
+            </div>
+           </div>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
